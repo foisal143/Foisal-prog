@@ -1,0 +1,156 @@
+img {
+  height: 150px;
+}
+
+body {
+  background-color: ;
+}
+.card-center {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  top: 30%;
+  left: 35%;
+}
+
+.nav-gradient {
+  background: linear-gradient(to right, #4d2db7, #9d44c0);
+}
+.ul {
+  margin-left: 50%;
+}
+.logo {
+  width: 200px;
+  height: fit-content;
+}
+.btn-hire {
+  margin-left: 10px;
+}
+.li {
+  transition: all 0.3s;
+}
+.li:hover {
+  background-color: black;
+}
+
+.all-content {
+  height: 50vh;
+}
+.intro-conteiner .typing-text {
+  font-size: 30px;
+  margin: 10px 0px;
+  overflow: hidden;
+  background-color: transparent;
+}
+
+.typing-text span {
+  position: relative;
+  left: 5px;
+  padding: 5px;
+}
+
+.typing-text span::before {
+  content: '';
+  color: #793fdf;
+  font-weight: bold;
+  animation: text 20s infinite;
+}
+/* modal start */
+#exampleModal {
+  width: 90%;
+}
+@keyframes text {
+  0%,
+  20% {
+    content: ' Devoloper';
+  }
+  21%,
+  40% {
+    content: ' Programer';
+  }
+  41%,
+  60% {
+    content: ' Creator';
+  }
+  61%,
+  80% {
+    content: ' SEO Expert';
+  }
+  81%,
+  100% {
+    content: ' Entrepreneur';
+  }
+}
+.photo {
+  height: 350px;
+}
+
+.typing-text span::after {
+  content: '';
+  position: absolute;
+  width: calc(100% + 10px);
+  height: 100%;
+  background: white;
+  animation: coursor 0.8s infinite, typing 20s steps(14) infinite;
+  border-left: 2px solid orange;
+  right: 0;
+}
+@keyframes coursor {
+  to {
+    border-left: transparent;
+  }
+}
+@keyframes typing {
+  10%,
+  15%,
+  30%,
+  35%,
+  50%,
+  55%,
+  70%,
+  75%,
+  90%,
+  95% {
+    width: 0;
+  }
+  5%,
+  20%,
+  25%,
+  40%,
+  45%,
+  60%,
+  65%,
+  80%,
+  85% {
+    width: 100%;
+  }
+}
+
+/* footer section */
+
+@media (max-width: 576px) {
+  .logo {
+    position: relative;
+    left: -30px;
+  }
+  .card-center {
+    top: 35%;
+  }
+  .li {
+    text-align: center;
+    width: 80px;
+  }
+
+  .ul {
+    margin-left: 45%;
+  }
+  .btn-hire {
+    position: relative;
+
+    left: -10px;
+    margin-top: 5px;
+  }
+  .typing-text span {
+    font-size: 1.4rem;
+  }
+}
