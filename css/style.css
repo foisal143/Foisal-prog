@@ -133,6 +133,9 @@ html {
   background-color: rgb(5, 1, 37);
   border: 1px solid aqua;
 }
+.border-aqua {
+  border: 1px solid aqua;
+}
 .body-color {
   background: rgb(5, 1, 37);
 }
