@@ -1,7 +1,9 @@
 img {
   height: 150px;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 .card-center {
   width: 80px;
   height: 80px;
@@ -124,10 +126,12 @@ img {
 }
 
 .card-css {
-  background: linear-gradient(to bottom right, hotpink, blue);
+  background-color: rgb(5, 1, 37);
+  border: 1px solid aqua;
 }
 .card-css-sk {
-  background: linear-gradient(to bottom right, blue, hotpink);
+  background-color: rgb(5, 1, 37);
+  border: 1px solid aqua;
 }
 .body-color {
   background: rgb(5, 1, 37);
@@ -174,4 +178,7 @@ img {
     width: 85%;
     height: 1px;
   }
+}
+
+@media (min-width: 577px) and (max-width: 800px) {
 }
